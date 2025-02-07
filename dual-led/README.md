@@ -19,6 +19,10 @@ Use your Arduino Uno as a DMX slave device to control 2 sets of 12v RGB LEDs.
 - Plug in your DMX controller
 - Unless you changed it in the code, the starting address is 49
 - use channels 1-8 relative to the starting address to control the lights
+      - 1: led 1 master brightness
+      - 2: led 2 master brightness
+      - 3-5: led 1 r,g,b
+      - 6-8: led 2 r,g,b
 
 ## Additional info (kind of important)
 - The DMX shield has a few tabs on the top for some settings. Here's where they should be (top to bottom, with the DMX connectors facing away from you):
