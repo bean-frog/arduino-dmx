@@ -21,7 +21,7 @@ Use your Arduino Uno as a DMX slave device to control 2 sets of 12v RGB LEDs.
 
 ## Additional info (kind of important)
 - The DMX shield has a few tabs on the top for some settings. Here's where they should be (top to bottom, with the DMX connectors facing away from you):
-    - **<span style="text-decoration: overline;">EN</span>** when uploading code, otherwise **EN**
+    - **EN(w/overline)** when uploading code, otherwise **EN**
     - **Slave**
     - **TX-uart**
     - **RX-uart**
