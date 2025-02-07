@@ -14,6 +14,7 @@ Use your Arduino Uno as a DMX slave device to control 2 sets of 12v RGB LEDs.
 ## Usage
 - build this circuit:
 - ![schematic](../images/dual-led-schematic.png)
+- if you're using the DC converter, solder its 12v input in parallel with the 12v power supply, and the 5v output to GND and VIN on the Uno.
 - upload dual-led.ino to the Arduino
 - Plug in your DMX controller
 - Unless you changed it in the code, the starting address is 49
