@@ -30,6 +30,7 @@ Use your Arduino Uno as a DMX slave device to control 2 sets of 12v RGB LEDs.
     - **Slave**
     - **TX-uart**
     - **RX-uart**
+- if you plan to be uploading code a lot, it's helpful to solder a SPDT switch across the EN pins, as its easier than removing and replacing the little jumper all the time
 - Ideally you should have a DMX terminator (120&Omega; resistor across DMX pins 2 and 3)
     - It's less important if this is your only device or if you only have a couple of simple devices in a daisy chain
     - Good practice to include one if you can.
